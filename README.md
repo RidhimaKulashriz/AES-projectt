@@ -1,4 +1,4 @@
-# AES Encryption/Decryption FPGA Implementation
+#AES Encryption/Decryption FPGA Implementation
 
 This project implements AES encryption and decryption on FPGA with support for 128-bit, 192-bit, and 256-bit keys. The current wrapper module (`aes_top.v`) is configured for AES-128, but the underlying core modules support all three key sizes through parameterization.
 
